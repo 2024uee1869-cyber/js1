@@ -29,4 +29,18 @@ const myFunction= function(){
 console.log(typeof scorevalue);
 console.log(typeof myFunction);
 
+///////////////MEMORY????
+//Stack(primitive types) and Heap(Reference types)
+let myYouTubeVideo="nishuyoutube.com";
+let anotherVideo=myYouTubeVideo;
+anotherVideo="nishuyoutube.com/another";
+console.log({myYouTubeVideo,anotherVideo});
 
+let userOne={
+    email: "nishu@gmail.com",
+    upi: "nishu@upi"
+}
+
+let userTwo=userOne;
+userTwo.email="newemail@gmail.com";
+console.log({userOne,userTwo});
