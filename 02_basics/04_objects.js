@@ -56,3 +56,39 @@ console.log(tinderuser.hasOwnProperty("isLoggedIn"));
 console.log(tinderuser.hasOwnProperty("isLogged"));
 
 
+
+///////////
+const course={
+    courseName:"js in hindi",
+    price:"999",
+    courseInstructor:"nishu yadav",
+
+}
+
+//course courseInstructor="nishu kumar yadav"; //update
+const{courseInstructor:instructor}=course;  //destructuring
+// console.log(courseInstructor);
+console.log(instructor);
+
+// const navbar=({companyName,companyLogo,companyTagline})=>{
+
+// }
+// navbar({companyName:"nishu yadav",companyLogo:"logo.png",companyTagline:"we are the best"});
+
+
+// JSON
+
+// {
+//   name: "nishu",
+//   courseName: "js in hindi",
+//   price:"000"
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
